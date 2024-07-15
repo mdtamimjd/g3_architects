@@ -40,7 +40,48 @@
 .m_t_40{
     margin-top: 40px;
 }
-
+.h2_45{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.span_i{
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+.span_b{
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+}
+.span_c{
+    color:rgb(255, 144, 14);
+}
+.h4_20{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+.h2_w_h{
+    width: 468px;
+    height: 106px;
+    padding-left: 8px;
+    border-left: 5px solid rgb(255, 144, 14);
+}
+.i_x{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.i_p{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 20px;
+}
 
 /* body work */
 *{
@@ -100,4 +141,89 @@ header>nav>ul>li>a{
     background-image: url('../images/banner.png');
     background-size: cover;
     border-radius: 8px;
+}
+
+/* features */
+.features{
+    width: 1440px;
+    height: 555px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features_img{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 50px;
+}
+.features_img>img{
+    height: 80%;
+    width:  85%;
+    margin: auto;
+}
+.features_text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_t_c{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* experience */
+.experience{
+    width: 1440px;
+    height: 1059px;
+    margin:100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience_img{
+    width: 708px;
+    height: 982px;
+    background-image: url('../images/architect.png');
+    background-size: cover;
+    background-position: center;
+}
+.experience_img>p{
+width: 258px;
+height: 109px;
+padding: 45px 42px;
+background-color: rgb(255, 144, 14);
+border-radius: 8px;
+position: relative;
+top: 880px;
+right:100px;
+cursor:pointer;
+}
+.experience_content{
+    margin-top: 50px;
+    width: 586px;
+    height: 982px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.experience_content>div{
+    width: 514px;
+    height: 111px;
+    padding: 30px;
+    padding-right: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
 }

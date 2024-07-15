@@ -55,6 +55,42 @@ nav{
     height: 80px;
     margin: 0 auto 100px;
 }
+/* features */
+.features{
+    width: 1440px;
+    height: 555px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features_img{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 50px;
+}
+.features_img>img{
+    height: 80%;
+    width:  85%;
+    margin: auto;
+}
+.features_text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_t_c{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 }
 
 
@@ -95,9 +131,35 @@ nav{
     background: rgb(255, 144, 14);
     padding: 10px 20px;
 }
-
+.h2_45{
+    font-size: 25px;
+}
+.h2_w_h{
+    width: 468px;
+    height: 106px;
+    padding-left: 8px;
+    border-left: 5px solid rgb(255, 144, 14);
+}
+.i_x{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+.i_p{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 20px;
+}
 
 /* body work */
+body{
+    overflow-x: hidden;
+}
 header{
     width: 100vw;
     height: auto;
@@ -140,5 +202,94 @@ header>nav>ul>li>a{
     background-size: cover;
     background-position: center;
     border-radius: 0;
+}
+/* features */
+.features{
+    width: 100vw;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.features_img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 0px;
+}
+.features_img>img{
+    height: 80%;
+    width:  85%;
+}
+.features_text{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_t_c{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* experience */
+.experience{
+    width: 100vw;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.experience_img{
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    margin: auto;
+    background-image: url('../images/architect.png');
+    background-size: cover;
+    background-position: center;
+}
+.experience_img>p{
+width: 200px;
+height: 50px;
+padding: 10px;
+background-color: rgb(255, 144, 14);
+border-radius: 8px;
+position: relative;
+top: 510px;
+left: 150px;
+cursor: pointer;
+}
+.experience_content{
+    margin-top: 50px;
+    width: 586px;
+    height: 982px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.experience_content>div{
+    width: 514px;
+    height: 111px;
+    padding: 30px;
+    padding-right: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
 }
 }
