@@ -292,4 +292,32 @@ cursor: pointer;
     row-gap: 20px;
     justify-content: center;
 }
+/* fact section */
+.fact{
+    width: 100vw;
+    height: auto;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fact_text{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+}
+.fact_content{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 20px;
+}
 }
